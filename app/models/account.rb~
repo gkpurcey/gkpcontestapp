@@ -1,0 +1,6 @@
+class Account < ActiveRecord::Base
+  validates_presense_of :shopify_account_url
+  validates_presense_of :shopify_api_key
+  validates_presense_of :shopify_password
+  validates_presense_of :shopify_shared_secret
+end
